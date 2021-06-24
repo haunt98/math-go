@@ -55,6 +55,18 @@ func TestGCD(t *testing.T) {
 			b:    13,
 			want: 1,
 		},
+		{
+			name: "-8 12",
+			a:    -8,
+			b:    12,
+			want: 4,
+		},
+		{
+			name: "8 -12",
+			a:    8,
+			b:    -12,
+			want: 4,
+		},
 	}
 
 	for _, tc := range tests {
